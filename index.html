@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Reservia</title>
 </head>
 <body>
@@ -16,83 +18,88 @@
             </div>
             <div id="nav">
                 <ul>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
-                    <li>S'incrire</li>
+                    <li> <a href="#blockHébergement">Hébergements</a> </li>
+                    <li> <a href="#blockActivité"> Activités</a></li>
+                    <li id="inscrire">S'inscrire</li>
                 </ul>
             </div>
         </header>
 
     <!--recherche et filtre-->
-    <div id="rechercheFiltre">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <h4>En plein centre ville ou en leine nature</h4>
-        <div id="recherche">
-            <form action="">
+        <div id="rechercheFiltre">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <h4>En plein centre ville ou en leine nature</h4>
+            <div id="recherche">
+                <i class="fas fa-map-marker-alt"></i>
+                <form method="POST" action="????.php">
+                    <input type="text" placeholder="Marseille, France">
+                    <input type="button" value="Recherche">
+                </form>
+            </div>
+            <div id="flitre">
+                <h3>Filtres</h3>
+                
 
-            </form>
+                <ul>
+                    <li><i class="fas fa-money-bill-wave"></i>Economique</li>
+                    <li><i class="fas fa-child"></i>Familial</li>
+                    <li><i class="fas fa-heart"></i>Romantique</li>
+                    <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+                </ul>
+            </div>
+            
+            <h4><i class="fas fa-info"></i>Plus de 500 logements sont dans cette ville</h4>
         </div>
-        <div id="flitre">
-            <h3>Filtres</h3>
-            <ul>
-                <li>Economique</li>
-                <li>Familial</li>
-                <li>Romantique</li>
-                <li>Animaux autorisés</li>
-            </ul>
+        <!-- les hébergements et les populaires-->
+        <div id="blockHébergement">
+            <section>
+                <h2>Hébergements à Marseille</h2>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <h3>Afficher plus</h3>
+            </section>
+            <aside>
+                <h2>Les plus populaires</h2>
+                <article></article>
+                <article></article>
+                <article></article>
+            </aside>
         </div>
-        <img src="" alt="">
-        <h4>Plus de 500 logements sont dans cette ville</h4>
-    </div>
-    <!-- les hébergements et les populaires-->
-    <div id="blockHébergement">
-        <section>
-            <h2>Hébergements à Marseille</h2>
+        <!-- activité-->
+        <div id="blockActivité">
+            <h2>Activités à Marseille</h2>
             <article></article>
             <article></article>
             <article></article>
             <article></article>
-            <article></article>
-            <article></article>
-            <h3>Afficher plus</h3>
-        </section>
-        <aside>
-            <h2></h2>
-            <article></article>
-            <article></article>
-            <article></article>
-        </aside>
-    </div>
-    <!-- activité-->
-    <div id="blockActivité">
-        <h2>Activités à Marseille</h2>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
 
+        </div>
+        <!-- footer-->
+        <footer>
+            <div id="aPropos">
+                <h2>A propos</h2>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générals de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+            </div>
+            <div id="footerHébergement">
+                <h2>Nos hebergements</h2>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+            </div>
+            <div id="assistance">
+                <h2>Assistance</h2>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </div>
+        </footer>
     </div>
-    <!-- footer-->
-    <footer>
-        <div id="aPropos">
-            <h2>A propos</h2>
-            <ul>
-                <li>Fonctionnement du site</li>
-                <li>Conditions générals de vente</li>
-                <li>Données et confidentialité</li>
-            </ul>
-        </div>
-        <div id="footerHébergement">
-            <h2>Nos hebergements</h2>
-            <li>Charte qualité</li>
-            <li>Soumettre votre hôtel</li>
-        </div>
-        <div id="assistance">
-            <h2>Assistance</h2>
-            <li>Centre d'aide</li>
-            <li>Nous contacter</li>
-        </div>
-    </footer>
-    </div>
+    <script src="https://kit.fontawesome.com/c29fd46666.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,62 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+#blockPage
+{
+    width: 1440px;
+    margin: auto;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*border: 2px black solid;  */
+}
+
+#nav ul
+{
+    display:flex;
+    list-style: none;
+    color:black;
+    
+}
+
+#nav ul li:hover
+{
+    border-top: 2px #0065FC solid ;
+    color: #0065FC;
+    
+    
+}
+
+#nav ul li
+{
+    margin-right:65px ;
+    height: 100px;
+    padding-top: 12px;
+    line-height: 100px;
+    font-weight: 700;
+   
+   
+}
+
+#logo
+{
+    margin-left: 53px;
+    padding-top: 50px;
+}
+
+#inscrire
+{
+    color:#0065FC ;
+}
+
+#rechercheFiltre
+{
+    width: 100%;
+    border: 2px black solid;
+}
+

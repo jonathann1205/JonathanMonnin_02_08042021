@@ -256,3 +256,29 @@ header
     color:#0065fc ;
 }
 
+#blockHébergement
+{
+    border: 2px black solid;
+    width: 100%;
+    padding-left: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blockHe
+{
+    background-color:#f2f2f2 ;
+    height: 625px;
+    width:880px ;
+    border: 2px black solid;
+    border-radius: 3%;
+}
+
+aside
+{
+    background-color:#f2f2f2;
+    width: 417px;
+    height: 625px;
+    border: 2px black solid;
+    border-radius: 3%;
+}

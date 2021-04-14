@@ -473,6 +473,10 @@ aside h2
     
 }
 
+#etoileMove
+{
+    margin-bottom: 40px;
+}
 .bordureTextPopu
 {
     font-size: 0.8em;
@@ -483,17 +487,18 @@ aside h2
     margin-top: 36px;
     margin-left: 134px;
     padding-left: 20px;
+    
 }
 
 .bordureTextPopu h3
 {
     margin-bottom: 4px;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 .bordureTextPopu h4
 {
     margin-top: 1px;
-    margin-bottom: 6px;
+    margin-bottom: 59px;
     font-weight: 400;
 }
 

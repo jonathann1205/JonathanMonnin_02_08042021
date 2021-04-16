@@ -27,6 +27,12 @@
         transition:none;
         
     }
+    
+    .blockPopulaire:hover
+    {
+        transform: none;
+        transition: none;
+    }
 
     .miniBlockB:hover
     {

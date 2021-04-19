@@ -489,7 +489,18 @@
 
     aside h2
     {
-    padding-left: 36px;  
+    padding-left: 36px;
+    margin-bottom: 20px;
+    position: absolute; 
+    }
+
+    #iconChart
+    {
+        position: relative;
+        font-size: 1.3em;
+        left: 351px;
+        top: 25px;
+        margin-bottom: 47px;
     }
 
     .blockPopulaire:hover

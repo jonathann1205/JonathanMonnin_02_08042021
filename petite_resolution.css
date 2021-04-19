@@ -1,8 +1,8 @@
-@media screen and (max-width: 768px)
+@media screen and (max-width: 425px)
  {
     #blockPage
     {
-        width: auto;
+        width: 100%;
         margin: auto;
         
     }
@@ -51,14 +51,15 @@
         width: auto;
         height: 132px;
         
-        justify-content: flex-start;
+        justify-content: space-around ;
         flex-wrap:wrap ;
     }
     #logo
     {
        height: 25px;
-        margin-right: 189px;
+        margin-right: 153px;
         margin-left: 20px;
+        
     }
 
     #nav
@@ -88,6 +89,8 @@
         line-height: 50px;
         margin-right: 0px;
         width: 50%;
+        text-align: center;
+        
 
     }
 
@@ -99,12 +102,20 @@
     
      }
 
+     #inscrire
+     {
+         font-size: 14px;
+         padding-top: 22px;
+         margin-right: 15px;
+     }
+
      /* bloc recherche et filtre */
 
      #recherche
      {
-         margin-left: 20px;
+         margin-left: 0px;
          width: 352px;
+         
      }
 
      #boutonRecherche
@@ -124,20 +135,27 @@
          display: inline;
      }
      
+     #rechercheFiltre
+     {
+         transform: scale(0.9);
+     }
+
      #rechercheFiltre h2
      {
-         padding-left: 20px;
+         padding-left: 00px;
+         margin-top: 0px;
+         
      }
 
      #rechercheFiltre h4
      {
-         padding-left: 20px;
+         padding-left: 0px;
      }
 
      #filtre
      {
         width: 100%;
-        padding-left: 20px;
+        padding-left: 0px;
         flex-wrap: wrap;
         margin-top: 62px;
      }
@@ -160,6 +178,12 @@
      {
          margin-left: -1px;
          margin-bottom: 13px;
+         margin-right: 5px;
+     }
+
+     #filtre1
+     {
+         width: 185px;
      }
 
      /*block hebergement */
@@ -168,8 +192,8 @@
     {
         
         width: 100%;
-        height: ;
         flex-direction: column;
+        transform: scale(0.9);
         
 
     }
@@ -178,13 +202,13 @@
     {
         width: 100%;
         margin: 0px;
-        padding-left: 20px;
+        padding-left: 0px;
         background-color:white;
     }
 
     #blockHe article
     {
-       width: 354px;
+       width: auto;
     }
 
     #hébergement img
@@ -233,16 +257,29 @@
         width: 100%;
     }
 
+    aside h2
+    {
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+
+    .blockPopulaire
+    {
+        margin-left: 10px;
+    }
+
     /*  block activiter */
 
     #blockActivité
     {
-        margin-top: 860px;
+        margin-top: 631px;
+        transform: scale(0.9);
+
     }
 
     #blockActivité h2
     {
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     #sousBlockA
@@ -250,61 +287,82 @@
         flex-direction: column;
         width: 100%;
         height: auto;
+        margin-left: 0px;
         
     }
 
     .grandBlock
     {
-        width: 90%;
+        width: 351px;
         height: 188px;
+        margin-left: 0px;
     
+    }
+
+    .titreGrandBlock
+    {
+        position: relative;
+        top: 132px;
+        background-color: white;
+        width: auto;
+        height: 56px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+    }
+
+    .titreGrandBlock h3
+    {
+        padding-top: 14px;
     }
 
     .bordureImgA
     {
         width: 100%;
         height: 100%;
+        position: absolute;
     }
 
     .bordureImgA img
     {
-        width: 100%;
+        width: 351px;
         height: auto;
-        object-position: 0px -352px;
+        object-position: 0px -281px;
         object-fit: contain;
+        border-radius: 20px;
     }
 
     #sousBlockA h3
     {
-
+     position: relative;
     }
 
     .miniBlockA
     {
-        width: 90%;
-        height: 188px;
+        width: 351px;
+        height: 190px;
     }
 
     .miniBlockB
     {
-        width: 90%;
+        width: 351px;
         height: 188px;
     }
 
     .bordureImgActiviter
     {
-        width: 90%;
+        width: 100%;
     }
 
     .bordureMiniBlockA
     {
-        width: 100%;
+        width: 351px;
         top: 128px;
     }
 
     .bordureMiniBlockB
     {
-        width: 100%;
+        width: 351px;
         top: 130px;
     }
 
@@ -312,7 +370,7 @@
 
     .miniBlockA img
     {
-        width: 96%;
+        width: 351px;
         object-position: 0px -20px;
         height: 100%;
         
@@ -320,14 +378,14 @@
 
     .miniBlockB img
     {
-        width: 96%;
+        width: 351px;
         
         
     }
 
     .miniBlockB
     {
-        width: 90%;
+        width: 351px;
     }
 
     /* footer */

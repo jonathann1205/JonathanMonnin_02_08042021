@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) 
+@media screen and (min-width:481px) and (max-width:1440px)
  {
     #blockPage
     {
@@ -59,7 +59,6 @@
        height: 25px;
         margin-right: 139px;
         margin-left: 20px;
-    
         
     }
 
@@ -194,9 +193,9 @@
         
         width: 100%;
         flex-direction: column;
-        transform: scale(0.9);
-        
-        
+        transform: scale(1.1);
+        margin-left: 44px;
+        margin-top: 85px;
 
     }
 
@@ -257,8 +256,11 @@
     {
         order: -1;
         width: 363px;
-        margin-top: -83px;
-        margin-right: 0px;
+        margin-top: -12px;
+       
+        
+
+
     }
 
     aside h2
@@ -270,6 +272,7 @@
     #iconChart
     {
         left: 331px;
+        width: 30px;
     }
 
     .blockPopulaire
@@ -281,9 +284,9 @@
 
     #blockActivité
     {
-        margin-top: 631px;
-        transform: scale(0.9);
-
+        margin-top: 1077px;
+        transform: scale(1.1);
+        margin-left: 44px;
     }
 
     #blockActivité h2
@@ -416,38 +419,291 @@
     }
 
   }
-
-  @media screen and (min-width:320px) and (max-width:376px) 
+  @media screen and (min-width:530px) and (max-width:768px)
   {
-      #logo
+    #blockHébergement
+    {
+        
+        margin-left: 27px;
+        width: auto;
+        transform: none;
+        margin-top: 20px;
+        
+    }  
+
+    #blockHe
+    {
+        width: auto;
+    }
+
+    #hébergement
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    aside
       {
-          margin-right: 99px;
+        display: flex; 
+        width: auto;
+        height: auto;
+       }
+
+    aside h2 
+    {
+        margin-left: 31px;
+    }
+
+
+    
+    #iconChart 
+    {
+        left: 736px;
+    }
+    
+      .blockPopulaire
+      {     
+        width: 344px;
+        height: auto;
+        
+      }
+      #blockArticlePopu
+      {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 40px;
+          
       }
 
-      #recherche
+      #blockActivité
       {
-          transform: scale(0.9);
-          margin-left: -19px;
-
+          margin-top: 870px;
+          transform: none;
+          margin-left: 26px;
       }
 
-      aside 
+  }
+
+  @media screen and (min-width:769px) and (max-width:1440px)
+  {
+    
+    #blockHébergement
+    {
+        transform: none;
+        margin-top: 20px;
+    }
+
+    #blockHe
+    {
+        margin-left: 19px;
+    }
+
+    #hébergement
+    {
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: left;
+    }
+
+    aside
+    {
+      display: flex; 
+      width: auto;
+      height: auto;
+      
+     }
+
+     aside h2 
+     {
+         margin-left: 19px;
+     }
+
+    #iconChart
+     {
+        left: 718px;  
+     }
+    
+    #blockArticlePopu
       {
-        transform: scale(0.9);
-        margin-left: -19px;
+          display: flex;
+          margin-left: -20px;          
+          margin-top: 40px;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
+     
       }
 
-      #blockHe
-      {
-          transform: scale(0.9);
-          margin-left: -19px;
+      .blockPopulaire
+      {     
+        width: 344px;
+        height: auto;
+        
       }
 
-      #blockActivité 
+      #blockActivité
       {
-          transform:scale(0.8);
-          margin-left: -19px;
-          margin-top: 455px;
+        margin-top: 858px;
+        transform: none;
+        margin-left: 63px;
       }
+
+      #sousBlockA
+      {
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: left;
+      }
+  }
+
+  @media screen and (min-width:814px) and (max-width:1440px)
+  {
+    #blockActivité
+    {
+        margin-top: 158px;
+    }  
+    
+    .grandBlock
+      {
+          height: 445px;
+    
+      }
+
+      .bordureImgA img
+      {
+          object-position: 0px  -77px;
+      }
+
+      .titreGrandBlock
+      {
+          top: 379px;
+      }
+
+      .miniBlockA
+      {
+          height: 236px;
+          margin-top: 29px;
+      }
+      .miniBlockA img
+      {
+          object-position: 0px 0px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px; 
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+          
+      }
+
+      .bordureMiniBlockA
+      {
+          top: 166px;
+      }
+
+      .miniBlockB 
+      {
+          height: 172px;
+          margin-top: 29px;
+      }
+
+    
+
+      .bordureMiniBlockB
+      {
+          top: 116px;
+      }
+  }
+  
+  @media screen and (min-width:1176px) and (max-width:1440px)
+  {
+    #blockActivité
+    {
+        margin-top: -70px;
+    }
+  }
+
+  @media screen and (min-width:531px) and (max-width:852px)
+  {
+      #iconChart
+      {
+          left: 355px;
+      }
+  }
+
+  @media screen and (min-width:1246px) and (max-width:1440px)
+  {
+      #iconChart
+      {
+          left: 1102px;
+      }
+  }
+
+  @media screen and (min-width:875px) and (max-width:1440px)
+  {
+    #logo 
+    {
+        margin-left: 42px;
+    }
+    #nav
+    {
+        order: 0;
+        display: flex;
+        width:auto;
+        margin-top: 22px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    } 
+
+    #nav ul 
+    {
+        text-align: center;
+    }
+
+    #nav ul li
+    {
+        width: 120px;
+        text-align: center;
+        margin-right: 48px;
+    }
+
+    #filtre
+     {
+         margin-top: 82px;
+     }
+
+     #filtre h3 
+     {
+         margin-top: 20px;
+         margin-right: 20px;
+     }
+  }
+
+  @media screen and (min-width:896px) and (max-width:1440px)
+  {
+     #filtre
+     {
+         margin-top: 104px;
+     }
+
+     #filtre h3 
+     {
+         margin-top: 12px;
+         margin-right: 20px;
+     }
+  }
+
+  @media screen and (min-width:1000px) and (max-width:1440px)
+  {
+     #filtre
+     {
+         margin-top: 104px;
+        
+     }
+
+     #filtre h3 
+     {
+         margin-top: 12px;
+         margin-right: 20px;
+     }
   }
       

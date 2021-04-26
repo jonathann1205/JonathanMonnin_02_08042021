@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:425px)" href="petite_resolution.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="petite_resolution.css">
+    <link rel="stylesheet" media="screen and (min-width:481px) and (max-width:1440px)" href="resolution_adapter.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Reservia</title>
@@ -74,7 +75,7 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>        
                                         <i class="fas fa-star"></i>
-                                        <i id="etoileNoir" class="fas fa-star"></i>
+                                        <i  class="fas fa-star etoileNoir"></i>
                                     </li>
                                 </ul>
                             </div>
@@ -115,7 +116,7 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>        
                                             <i class="fas fa-star"></i>
-                                            <i id="etoileNoir" class="fas fa-star"></i>
+                                            <i  class="fas fa-star etoileNoir"></i>
                                         </li>
                                     </ul>
                                 </div>
@@ -134,8 +135,8 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>        
-                                            <i id="etoileNoir" class="fas fa-star"></i>
-                                            <i id="etoileNoir" class="fas fa-star"></i>
+                                            <i class="fas fa-star etoileNoir"></i>
+                                            <i class="fas fa-star etoileNoir"></i>
                                         </li>
                                     </ul>
                                 </div>
@@ -155,7 +156,7 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>        
                                             <i class="fas fa-star"></i>
-                                            <i id="etoileNoir" class="fas fa-star"></i>
+                                            <i class="fas fa-star etoileNoir"></i>
                                         </li>
                                     </ul>
                                 </div>
@@ -191,67 +192,68 @@
                 <div id="iconChart">
                     <i class="fas fa-chart-line"></i>
                 </div>
-                <a href="#logo">
-                    <article class="blockPopulaire">
-                        <div id="bordureImgPopu1" class="bordureImgPopu">
-                            <img src="content/images/hebergements/emilie.jpg" alt="photo de l'hôtel le soleil du matin ">
-                        </div>
-                            <div class="bordureTextPopu">
-                                <h3>Hôtel Le soleil du matin</h3>
-                                <h4>Nuit à partir de <strong>128€</strong> </h4>
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>        
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                </ul>
+                <div id="blockArticlePopu">
+                    <a href="#logo">
+                        <article class="blockPopulaire">
+                            <div id="bordureImgPopu1" class="bordureImgPopu">
+                                <img src="content/images/hebergements/emilie.jpg" alt="photo de l'hôtel le soleil du matin ">
                             </div>
-                    </article>
-                </a>
-                <a href="#logo">
-                    <article class="blockPopulaire">
-                        <div id="bordureImgPopu2" class="bordureImgPopu">
-                            <img src="content/images/hebergements/aw.jpg" alt="photo Au coeur de l'eau Chambres d'hôtes">
-                        </div>
-                            <div class="bordureTextPopu">
-                                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                <h4 id="etoileMove">Nuit à partir de <strong>71€</strong> </h4>
-                                    <ul >
+                                <div class="bordureTextPopu">
+                                    <h3>Hôtel Le soleil du matin</h3>
+                                    <h4>Nuit à partir de <strong>128€</strong> </h4>
+                                    <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>        
                                             <i class="fas fa-star"></i>
-                                            <i id="etoileNoir" class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
                                         </li>
                                     </ul>
+                                </div>
+                        </article>
+                    </a>
+                    <a href="#logo">
+                        <article class="blockPopulaire">
+                            <div id="bordureImgPopu2" class="bordureImgPopu">
+                                <img src="content/images/hebergements/aw.jpg" alt="photo Au coeur de l'eau Chambres d'hôtes">
                             </div>
-                    </article>
-                </a>
-                <a href="#logo">
-                    <article class="blockPopulaire">
-                        <div id="bordureImgPopu3" class="bordureImgPopu">
-                            <img src="content/images/hebergements/febrian2.jpg" alt="photo Hôtel Tout bleu et Blanc">
-                        </div>
-                            <div class="bordureTextPopu">
-                                <h3>Hôtel Tout bleu et Blanc</h3>
-                                <h4>Nuit à partir de <strong>68€</strong> </h4>
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>        
-                                        <i class="fas fa-star"></i>
-                                        <i id="etoileNoir" class="fas fa-star"></i>
-                                    </li>
-                                </ul>
+                                <div class="bordureTextPopu">
+                                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                    <h4 id="etoileMove">Nuit à partir de <strong>71€</strong> </h4>
+                                        <ul >
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>        
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star etoileNoir"></i>
+                                            </li>
+                                        </ul>
+                                </div>
+                        </article>
+                    </a>
+                    <a href="#logo">
+                        <article class="blockPopulaire">
+                            <div id="bordureImgPopu3" class="bordureImgPopu">
+                                <img src="content/images/hebergements/febrian2.jpg" alt="photo Hôtel Tout bleu et Blanc">
                             </div>
-                    </article>
-                </a>
-
+                                <div class="bordureTextPopu">
+                                    <h3>Hôtel Tout bleu et Blanc</h3>
+                                    <h4>Nuit à partir de <strong>68€</strong> </h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>        
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star etoileNoir"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </article>
+                    </a>
+                </div>      
             </aside>
         </div>
         <!-- activité-->

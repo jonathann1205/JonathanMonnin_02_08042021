@@ -157,7 +157,7 @@
         width: 100%;
         padding-left: 0px;
         flex-wrap: wrap;
-        margin-top: 62px;
+        margin-top: 64px;
      }
 
      #filtre h3
@@ -340,9 +340,47 @@
     {
         width: 351px;
         height: auto;
-        object-position: 0px -281px;
+        object-position: 0px -69px;
         object-fit: contain;
         border-radius: 20px;
+    }
+
+    /* fort pomegue */
+
+    #GrandeImage
+    {
+        display: none;
+    }
+
+    #PetiteImage
+    {
+        display: inline;
+    }
+
+
+
+    /* image de vieux port */
+
+    #imageA1
+    {
+        display: none;
+    }
+
+    #imageB1
+    {
+        display: inline;
+    }
+
+    /* parc nationnal */
+
+    #imageA4
+    {
+        display: none;
+    }
+
+    #imageB4
+    {
+        display: inline;
     }
 
     #sousBlockA h3
@@ -409,7 +447,7 @@
         width: auto;
         height: 485px;  
         padding-top: 0px;  
-        margin-top: 0px;
+        margin-top: 90px;
     }
 
     .footer
@@ -612,6 +650,30 @@
       {
           top: 116px;
       }
+
+        /* image de vieux port */
+
+    #imageA1
+    {
+        display: inline;
+    }
+
+    #imageB1
+    {
+        display: none;
+    }
+
+    /* parc nationnal */
+
+    #imageA4
+    {
+        display: inline;
+    }
+
+    #imageB4
+    {
+        display: none;
+    }
   }
   
   @media screen and (min-width:1176px) and (max-width:1440px)

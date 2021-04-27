@@ -337,7 +337,7 @@
     {
         width: 351px;
         height: auto;
-        object-position: 0px -281px;
+        object-position: 0px -70px;
         object-fit: contain;
         border-radius: 20px;
     }
@@ -351,6 +351,40 @@
     {
         width: 351px;
         height: 190px;
+    }
+    /* fort de pomegue*/
+    #GrandeImage
+    {
+        display: none;
+    }
+
+    #PetiteImage
+    {
+        display: inline;
+    }
+
+    /* image de vieux port */
+
+    #imageA1
+    {
+        display: none;
+    }
+
+    #imageB1
+    {
+        display: inline;
+    }
+
+    /* parc nationnal */
+
+    #imageA4
+    {
+        display: none;
+    }
+
+    #imageB4
+    {
+        display: inline;
     }
 
     .miniBlockB

@@ -14,6 +14,7 @@
     a
     {
         text-decoration: none;
+        color: black;
 
     }
     
@@ -244,7 +245,8 @@
         padding-right: 13px;
         padding-top: 14px;
         padding-bottom: 16px;
-        color: #0065fc;
+        color:#0065fc ;
+      
     }
 
     #iconeFiltre2
@@ -312,11 +314,14 @@
         width: 232px;
     }
 
+ 
+
     #filtre ul li:hover
     {
-        background-color:#0065fc;
-        color: white;
+        background-color: #0065fc;
+      
     }
+
 
 
     #info

@@ -215,7 +215,7 @@
 
     #hébergement img
     {
-       width: 346px; 
+       width: 343px; 
     }
 
     .bordureText
@@ -270,6 +270,7 @@
     #iconChart
     {
         left: 331px;
+        width: 30px;
     }
 
     .blockPopulaire
@@ -445,9 +446,12 @@
 
     .footer
     {
-        width: 100%;
-
+        width: 90%;
+        margin-right: 0px;
+        padding-left: 0px;
+        margin-left: 16px;
     }
+ 
 
   }
 

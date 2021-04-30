@@ -214,7 +214,7 @@
 
     #hébergement img
     {
-       width: 346px; 
+       width: 343px; 
     }
 
     .bordureText
@@ -278,6 +278,11 @@
     .blockPopulaire
     {
         margin-left: 10px;
+    }
+
+    .bordureImgPopu img
+    {
+        height: 130px;
     }
 
     /*  block activiter */

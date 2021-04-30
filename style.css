@@ -115,6 +115,16 @@
     
     }
 
+    #inscrire a:link
+    {
+        color: #0065FC;
+    }
+
+    #inscrire a:visited
+    {
+        color: #0065FC;
+    }
+
     /* logo dans le header */
     #logo
     {

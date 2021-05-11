@@ -56,9 +56,6 @@
     }
     #logo
     {
-       /* height: 25px; */
-        /* margin-right: 139px; */
-        /* margin-left: 20px; */
         padding-top: 20px;
         position: absolute;
         margin-left: 10px;
@@ -210,10 +207,6 @@
         display: flex;
         width: 100%;
         flex-direction: column;
-        /* transform: scale(0.9); */
-        
-        
-        
 
     }
 
@@ -230,7 +223,6 @@
     #blockHe article
     {
        width: 100%;
-       /* transform: scale(0.85); */
        margin-bottom: 0px;
     }
 
@@ -283,7 +275,6 @@
     {
         order: -1;
         width: 100%;
-        /* margin-top: -83px; */
         margin-right: 0px;
         display: flex;
         justify-content: center;
@@ -303,12 +294,7 @@
         position: absolute;
     }
 
-    .blockPopulaire
-    {
-        /* margin-left: 10px; */
-        /* transform: scale(0.85); */
-    
-    }
+
     #blockArticlePopu{
         justify-content: center;
         flex-flow: row wrap;
@@ -316,7 +302,7 @@
     }
 
     #blockArticlePopu a{
-        /* width: 310px; */
+
         transform: scale(0.85);
     }
 
@@ -326,12 +312,7 @@
 
     /*  block activiter */
 
-    #blockActivité
-    {
-        /* margin-top: 631px; */
-        /* transform: scale(0.9); */
 
-    }
 
     #blockActivité h2
     {
@@ -370,6 +351,15 @@
         
         
     
+    }
+
+    .Gblock:hover
+    {
+        
+        transform: none;
+        transition: none;
+        z-index: 1;
+        
     }
 
     .titreGrandBlock
@@ -493,10 +483,7 @@
     #bordureImgActiviterLonchamp{
         width: 305px;
     }
-    /* .miniBlockB
-    {
-        width: 351px;
-    } */
+
 
     /* footer */
 
@@ -531,23 +518,6 @@
 
       }
 
-      aside 
-      {
-        /* transform: scale(0.9); */
-       
-      }
 
-      #blockHe
-      {
-          /* transform: scale(0.9); */
-          /* margin-left: -19px; */
-      }
-
-      #blockActivité 
-      {
-          /* transform:scale(0.8); */
-          /* margin-left: -19px; */
-          /* margin-top: 455px; */
-      }
   }
       

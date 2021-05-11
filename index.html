@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:480px)" href="petite_resolution.css">
-    <link rel="stylesheet" media="screen and (min-width:481px) and (max-width:1440px)" href="resolution_adapter.css">
+    <link rel="stylesheet"   href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1249px)" href="petite_resolution.css">
+    <link rel="stylesheet" media="screen  and (max-width:1249px)" href="resolution_adapter.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Reservia</title>
@@ -18,23 +18,25 @@
             <div id="logo">
                 <img src="content/images/logo/Reservia.svg" alt="logo reservia">
             </div>
-
-            <div id="nav">
-                <ul>
-                    <li> <a href="#blockHébergement">Hébergements</a> </li>
-                    <li> <a href="#blockActivité"> Activités</a></li>
-                </ul>
+            
+                <div id="nav">
+                    <ul>
+                        <li> <a href="#blockHébergement">Hébergements</a> </li>
+                        <li> <a href="#blockActivité"> Activités</a></li>
+                    </ul>
+                    <div id="inscrire">
+                        <h3><a href="1">S'inscrire</a></h3>
+                    </div>
+                </div>
                 
-            </div>
-            <div id="inscrire">
-                <h3><a href="1">S'inscrire</a></h3>
-            </div>    
+                 
+            
         </header>
 
     <!--recherche et filtre-->
         <div id="rechercheFiltre">
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <h4>En plein centre ville ou en pleine nature</h4>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
             <div id="recherche">
                 <i id="logoIci" class="fas fa-map-marker-alt"></i>
                 <form method="POST" action="????.php">
@@ -53,7 +55,7 @@
                 </ul>
             </div>
             
-            <h4><i id="info" class="fas fa-info"></i>Plus de 500 logements sont dans cette ville</h4>
+            <p><i id="info" class="fas fa-info"></i>Plus de 500 logements sont dans cette ville</p>
         </div>
         <!-- les hébergements et les populaires-->
         <div id="blockHébergement">
@@ -68,7 +70,7 @@
                             </div>
                             <div class="bordureText">
                                 <h3>Auberge la Cannebiere</h3>
-                                <h4>Nuit à partir de <strong>25€</strong> </h4>
+                                <p>Nuit à partir de <strong>25€</strong> </p>
                                 <ul>
                                     <li>
                                         <i class="fas fa-star"></i>
@@ -88,7 +90,7 @@
                             </div>
                             <div class="bordureText">
                                 <h3>Hôtel du port</h3>
-                                <h4>Nuit à partir de <strong>52€</strong> </h4>
+                                <p>Nuit à partir de <strong>52€</strong> </p>
                                 <ul>
                                     <li>
                                         <i class="fas fa-star"></i>
@@ -109,7 +111,7 @@
                             </div>
                                 <div class="bordureText">
                                     <h3>hôtel les mouettes</h3>
-                                    <h4>Nuit à partir de <strong>76€</strong> </h4>
+                                    <p>Nuit à partir de <strong>76€</strong> </p>
                                     <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -129,7 +131,7 @@
                             </div>
                                 <div class="bordureText">
                                     <h3>Hôtel de la mer</h3>
-                                    <h4>Nuit à partir de <strong>46€</strong> </h4>
+                                    <p>Nuit à partir de <strong>46€</strong> </p>
                                     <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -149,7 +151,7 @@
                             </div>
                                 <div class="bordureText">
                                     <h3>Auberge le Panier</h3>
-                                    <h4>Nuit à partir de <strong>23€</strong> </h4>
+                                    <p>Nuit à partir de <strong>23€</strong> </p>
                                     <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -169,7 +171,7 @@
                             </div> 
                             <div class="bordureText">
                                 <h3>Hôtel cher Amina</h3>
-                                <h4>Nuit à partir de <strong>96€</strong> </h4>
+                                <p>Nuit à partir de <strong>96€</strong> </p>
                                 <ul>
                                     <li>
                                         <i class="fas fa-star"></i>
@@ -200,7 +202,7 @@
                             </div>
                                 <div class="bordureTextPopu">
                                     <h3>Hôtel Le soleil du matin</h3>
-                                    <h4>Nuit à partir de <strong>128€</strong> </h4>
+                                    <p>Nuit à partir de <strong>128€</strong> </p>
                                     <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -220,7 +222,7 @@
                             </div>
                                 <div class="bordureTextPopu">
                                     <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                    <h4 id="etoileMove">Nuit à partir de <strong>71€</strong> </h4>
+                                    <p id="etoileMove">Nuit à partir de <strong>71€</strong> </p>
                                         <ul >
                                             <li>
                                                 <i class="fas fa-star"></i>
@@ -240,7 +242,7 @@
                             </div>
                                 <div class="bordureTextPopu">
                                     <h3>Hôtel Tout bleu et Blanc</h3>
-                                    <h4>Nuit à partir de <strong>68€</strong> </h4>
+                                    <p>Nuit à partir de <strong>68€</strong> </p>
                                     <ul>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -260,18 +262,21 @@
         <div id="blockActivité">
             <h2>Activités à Marseille</h2>
             <section id="sousBlockA">
-                
-                <a href="16">
-                    <article class="grandBlock">
-                        <div class="bordureImgA">
-                            <img id="imageA1" src="content/images/activites/reno.jpg" alt="photo du vieux port">
-                            <img id="imageB1" src="content/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port">
-                        </div>
-                        <div class="titreGrandBlock">
-                            <h3>Vieux Port</h3>
-                        </div>
-                    </article>
-                </a>
+                <div>   
+                    <a href="16">
+                        
+                        <article class="grandBlock">
+                            <div class="bordureImgA">
+                                <img id="imageA1" src="content/images/activites/reno.jpg" alt="photo du vieux port">
+                                <img id="imageB1" src="content/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port">
+                            </div>
+                            <div class="titreGrandBlock">
+                                <h3>Vieux Port</h3>
+                            </div>
+                        </article>
+                    
+                    </a>
+                </div>
                 
                     <div>
                         <a href="17">
@@ -301,7 +306,7 @@
                         </a> 
                     </div>        
                          
-                
+                <div>
                 <a href="19">
                     <article class="grandBlock"> 
                         <div class="bordureImgA">
@@ -313,12 +318,13 @@
                         </DIV>
                     </article>
                 </a>
+                </div>
                 <div>
                     <a href="20">   
                                 
                         <div class="miniBlockB" id="blockBBis">
-                            <div class="bordureImgActiviter">
-                                <img src="content/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre Dame de la garde">
+                            <div class="bordureImgActiviter ">
+                                <img   src="content/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre Dame de la garde">
                             </div>
                             
                             <div class="bordureMiniBlockB" >
@@ -329,7 +335,7 @@
                     <a href="21" >
                         <div class="miniBlockA" id="blockABis">
                             <div class="bordureImgActiviter">
-                                <img src="content/images/activites/Lonchamps.jpg" alt="photo du Parc Longchamp">
+                                <img id="bordureImgActiviterLonchamp" src="content/images/activites/Lonchamps.jpg" alt="photo du Parc Longchamp">
                             </div>
                             
                             <div class="bordureMiniBlockA" >
@@ -348,12 +354,12 @@
                 <h2>A propos</h2>
                 <ul>
                     <li> <a href="22">Fonctionnement du site</a></li>
-                    <li> <a href="23">Conditions générals de vente</a></li>
+                    <li> <a href="23">Conditions générales de vente</a></li>
                     <li> <a href="24">Données et confidentialité</a></li>
                 </ul>
             </div>
             <div id="footerHébergement" class="footer">
-                <h2>Nos hebergements</h2>
+                <h2>Nos hébergements</h2>
                 <ul>
                     <li> <a href="25">Charte qualité</a></li>
                     <li> <a href="26">Soumettre votre hôtel</a></li>

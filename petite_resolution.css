@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) 
+@media screen and (max-width:1249px) 
  {
     #blockPage
     {
@@ -51,25 +51,29 @@
         width: auto;
         height: 132px;
         
-        justify-content: space-around ;
+        justify-content: space-between ;
         flex-wrap:wrap ;
     }
     #logo
     {
-       height: 25px;
-        margin-right: 139px;
-        margin-left: 20px;
+       /* height: 25px; */
+        /* margin-right: 139px; */
+        /* margin-left: 20px; */
+        padding-top: 20px;
+        position: absolute;
+        margin-left: 10px;
     
         
     }
 
     #nav
     {
-        order: 1;
+        
         width: 100%;
-        height: 50px;
+        height: 130px;
         padding-bottom: 5px;
         margin: auto;
+        flex-wrap: wrap;
         
     }
 
@@ -80,6 +84,7 @@
         justify-content: space-between;
         padding-left: 0px;
         text-align: center;
+        border-bottom: 3px solid #f2f2f2;
         
         
     }
@@ -108,9 +113,18 @@
          font-size: 14px;
          padding-top: 22px;
          margin-right: 15px;
+         order: -1;
      }
 
      /* bloc recherche et filtre */
+     #rechercheFiltre h1{
+         padding-left: 0px;
+         margin:0px;
+     }
+
+     #rechercheFiltre p{
+         padding-left: 0px;
+     }
 
      #recherche
      {
@@ -159,6 +173,8 @@
         padding-left: 0px;
         flex-wrap: wrap;
         margin-top: 62px;
+        
+    }
      }
 
      #filtre h3
@@ -171,7 +187,7 @@
         width: auto; 
         flex-wrap: wrap;
         margin: 0px;
-        padding: 0px;
+        padding: 18px;
 
      }
 
@@ -191,10 +207,11 @@
 
      #blockHébergement
     {
-        
+        display: flex;
         width: 100%;
         flex-direction: column;
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
+        
         
         
 
@@ -206,12 +223,21 @@
         margin: 0px;
         padding-left: 0px;
         background-color:white;
+        max-width: none;
+        
     }
 
     #blockHe article
     {
-       width: auto;
+       width: 100%;
+       /* transform: scale(0.85); */
+       margin-bottom: 0px;
     }
+
+    #blockHe a{
+        transform: scale(0.85); 
+    }
+
 
     #hébergement img
     {
@@ -256,9 +282,12 @@
     aside 
     {
         order: -1;
-        width: 363px;
-        margin-top: -83px;
+        width: 100%;
+        /* margin-top: -83px; */
         margin-right: 0px;
+        display: flex;
+        justify-content: center;
+
     }
 
     aside h2
@@ -269,27 +298,46 @@
 
     #iconChart
     {
-        left: 331px;
+        left: 264px;
         width: 30px;
+        position: absolute;
     }
 
     .blockPopulaire
     {
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        /* transform: scale(0.85); */
+    
+    }
+    #blockArticlePopu{
+        justify-content: center;
+        flex-flow: row wrap;
+        
+    }
+
+    #blockArticlePopu a{
+        /* width: 310px; */
+        transform: scale(0.85);
+    }
+
+    .bordureTextPopu{
+        margin-top: 0px;
     }
 
     /*  block activiter */
 
     #blockActivité
     {
-        margin-top: 631px;
-        transform: scale(0.9);
+        /* margin-top: 631px; */
+        /* transform: scale(0.9); */
 
     }
 
     #blockActivité h2
     {
         padding-left: 0px;
+        width: 300px;
+        margin-top: 30px;
     }
 
     #sousBlockA
@@ -298,15 +346,29 @@
         width: 100%;
         height: auto;
         margin-left: 0px;
+        align-items: center;
+        flex-flow: row wrap;
         
+        
+        
+    }
+
+    #sousBlockA a{
+        width: 100%;
+        
+
     }
 
     .grandBlock
     {
-        width: 351px;
+        width: 305px;
         height: 188px;
         margin-left: 0px;
         margin-top: 30px;
+        position: relative;
+        
+        
+        
     
     }
 
@@ -329,14 +391,14 @@
 
     .bordureImgA
     {
-        width: 100%;
+        width: 96%;
         height: 100%;
         position: absolute;
     }
 
     .bordureImgA img
     {
-        width: 351px;
+        width: 305px;
         height: auto;
         object-position: 0px -70px;
         object-fit: contain;
@@ -350,7 +412,7 @@
 
     .miniBlockA
     {
-        width: 351px;
+        width: 305px;
         height: 190px;
     }
     /* fort de pomegue*/
@@ -390,24 +452,24 @@
 
     .miniBlockB
     {
-        width: 351px;
+        width: 305px;
         height: 188px;
     }
 
     .bordureImgActiviter
     {
-        width: 100%;
+        width: 310px;
     }
 
     .bordureMiniBlockA
     {
-        width: 351px;
+        width: auto;
         top: 128px;
     }
 
     .bordureMiniBlockB
     {
-        width: 351px;
+        width: auto;
         top: 130px;
     }
 
@@ -415,7 +477,7 @@
 
     .miniBlockA img
     {
-        width: 351px;
+        width: 305px;
         object-position: 0px -20px;
         height: 100%;
         
@@ -423,15 +485,18 @@
 
     .miniBlockB img
     {
-        width: 351px;
+        width: 305px;
         
         
     }
 
-    .miniBlockB
+    #bordureImgActiviterLonchamp{
+        width: 305px;
+    }
+    /* .miniBlockB
     {
         width: 351px;
-    }
+    } */
 
     /* footer */
 
@@ -457,10 +522,7 @@
 
   @media screen and (min-width:320px) and (max-width:376px) 
   {
-      #logo
-      {
-          margin-right: 99px;
-      }
+  
 
       #recherche
       {
@@ -471,21 +533,21 @@
 
       aside 
       {
-        transform: scale(0.9);
-        margin-left: -19px;
+        /* transform: scale(0.9); */
+       
       }
 
       #blockHe
       {
-          transform: scale(0.9);
-          margin-left: -19px;
+          /* transform: scale(0.9); */
+          /* margin-left: -19px; */
       }
 
       #blockActivité 
       {
-          transform:scale(0.8);
-          margin-left: -19px;
-          margin-top: 455px;
+          /* transform:scale(0.8); */
+          /* margin-left: -19px; */
+          /* margin-top: 455px; */
       }
   }
       

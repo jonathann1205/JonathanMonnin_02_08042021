@@ -1,5 +1,5 @@
 @media screen and (max-width:1249px) 
- {
+{
     #blockPage
     {
         width: 100%;
@@ -172,7 +172,7 @@
         margin-top: 62px;
         
     }
-     }
+     
 
      #filtre h3
      {
@@ -505,6 +505,7 @@
     }
  
 
+  
   }
 
   @media screen and (min-width:320px) and (max-width:376px) 
